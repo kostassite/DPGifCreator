@@ -17,6 +17,7 @@
 		2E9B5ADB1ACCBEF600B7E562 /* UIView+CaptureImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9B5ADA1ACCBEF600B7E562 /* UIView+CaptureImage.m */; };
 		2E9B5AE01ACCBFDA00B7E562 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9B5ADE1ACCBFDA00B7E562 /* RootViewController.m */; };
 		2E9B5AE11ACCBFDA00B7E562 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E9B5ADF1ACCBFDA00B7E562 /* RootViewController.xib */; };
+		2E9B5AE31ACCC33100B7E562 /* test1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E9B5AE21ACCC33100B7E562 /* test1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		2E9B5ADD1ACCBFDA00B7E562 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		2E9B5ADE1ACCBFDA00B7E562 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		2E9B5ADF1ACCBFDA00B7E562 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		2E9B5AE21ACCC33100B7E562 /* test1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				2E9B5ADD1ACCBFDA00B7E562 /* RootViewController.h */,
 				2E9B5ADE1ACCBFDA00B7E562 /* RootViewController.m */,
 				2E9B5ADF1ACCBFDA00B7E562 /* RootViewController.xib */,
+				2E9B5AE21ACCC33100B7E562 /* test1.png */,
 				2E9B5AB91ACCBB0000B7E562 /* Images.xcassets */,
 				2E9B5ABB1ACCBB0000B7E562 /* LaunchScreen.xib */,
 				2E9B5AAC1ACCBB0000B7E562 /* Supporting Files */,
@@ -233,6 +236,7 @@
 				2E9B5ABD1ACCBB0000B7E562 /* LaunchScreen.xib in Resources */,
 				2E9B5ABA1ACCBB0000B7E562 /* Images.xcassets in Resources */,
 				2E9B5AE11ACCBFDA00B7E562 /* RootViewController.xib in Resources */,
+				2E9B5AE31ACCC33100B7E562 /* test1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

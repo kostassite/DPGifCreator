@@ -39,9 +39,13 @@
 -(void)createTestGif{
     DPGSlide *slide1 = [[DPGSlide alloc]initWithFrame:testImageView.bounds];
     [slide1 setText:@"First"];
+    [slide1 setBackgroundColor:[UIColor redColor]];
+    [slide1 setTextFont:[UIFont boldSystemFontOfSize:24]];
     
     DPGSlide *slide2 = [[DPGSlide alloc]initWithFrame:testImageView.bounds];
     [slide2 setText:@"Second"];
+    [slide2 setTextAlignment:NSTextAlignmentCenter];
+    [slide2 setImage:[UIImage imageNamed:@"test1.png"]];
     
     DPGifCreator *creator = [[DPGifCreator alloc]init];
     

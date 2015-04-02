@@ -10,7 +10,14 @@
 
 @interface DPGSlide : UIView
 
+-(void)setImage:(UIImage*)image;
+-(void)setImageContentMode:(UIViewContentMode)contentMode;
+
+//text
 -(void)setText:(NSString*)text;
+-(void)setTextAlignment:(NSTextAlignment)alignment;
+-(void)setTextColor:(UIColor*)color;
+-(void)setTextFont:(UIFont*)font;
 
 -(UIImage*)image;
 

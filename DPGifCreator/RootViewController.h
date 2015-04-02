@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  RootViewController.h
 //  DPGifCreator
 //
 //  Created by Kostas on 2/4/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface RootViewController : UIViewController
 
 @end
-

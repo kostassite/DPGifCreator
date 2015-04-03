@@ -18,7 +18,7 @@
         [imagesArray addObject:slide.image];
     }
     
-    return [UIImage animatedImageWithImages:imagesArray duration:duration];
+    return [UIImage animatedImageWithImages:imagesArray duration:duration*slidesArray.count];
 }
 
 @end

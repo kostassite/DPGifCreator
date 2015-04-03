@@ -60,9 +60,11 @@
     if (!_textLabel) {
         _textLabel = [[UILabel alloc]initWithFrame:self.bounds];
         _textLabel.textColor = [UIColor whiteColor];
-        _textLabel.font = [UIFont systemFontOfSize:15];
+        _textLabel.font = [UIFont systemFontOfSize:100];
         _textLabel.numberOfLines = 0;
         _textLabel.backgroundColor = [UIColor clearColor];
+        _textLabel.textAlignment = NSTextAlignmentCenter;
+        
         [self addSubview:_textLabel];
     }
     return _textLabel;

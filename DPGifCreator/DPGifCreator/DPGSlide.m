@@ -44,6 +44,10 @@
     [self.textLabel setText:text];
 }
 
+-(void)setAttributedText:(NSAttributedString*)attributedText{
+    [self.textLabel setAttributedText:attributedText];
+}
+
 -(void)setTextAlignment:(NSTextAlignment)alignment{
     [self.textLabel setTextAlignment:alignment];
 }

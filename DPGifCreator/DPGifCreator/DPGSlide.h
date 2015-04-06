@@ -15,6 +15,7 @@
 
 //text
 -(void)setText:(NSString*)text;
+-(void)setAttributedText:(NSAttributedString*)attributedText;
 -(void)setTextAlignment:(NSTextAlignment)alignment;
 -(void)setTextColor:(UIColor*)color;
 -(void)setTextFont:(UIFont*)font;

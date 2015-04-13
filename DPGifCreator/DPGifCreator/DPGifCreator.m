@@ -18,7 +18,11 @@
         [imagesArray addObject:slide.image];
     }
     
-    return [UIImage animatedImageWithImages:imagesArray duration:duration*slidesArray.count];
+    UIImage *animatedImage = [UIImage animatedImageWithImages:imagesArray duration:duration*slidesArray.count];
+    [imagesArray removeAllObjects];
+    [[NSRunLoop currentRunLoop] runMode: NSDefaultRunLoopMode beforeDate:[NSDate date]];
+
+    return animatedImage;
 }
 
 @end

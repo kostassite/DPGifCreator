@@ -33,7 +33,12 @@
     if (!_imageView) {
         _imageView = [[UIImageView alloc]initWithFrame:self.bounds];
         [_imageView setContentMode:UIViewContentModeScaleAspectFill];
-        [self insertSubview:_imageView atIndex:0];
+        if (self.textLabel) {
+            [self insertSubview:_imageView belowSubview:self.textLabel];
+        }else{
+            [self addSubview:_imageView];
+        }
+
     }
     return _imageView;
 }
